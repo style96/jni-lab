@@ -1,4 +1,4 @@
-package com.example.jni;
+package struct_pass;
 
 public class StructJNI {
     static {

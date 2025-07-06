@@ -1,4 +1,4 @@
-package com.example.jni;
+package hello_world;
 
 public class HelloJNI {
     static {

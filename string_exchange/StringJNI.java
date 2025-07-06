@@ -1,4 +1,4 @@
-package com.example.jni;
+package string_exchange;
 
 public class StringJNI {
     static {

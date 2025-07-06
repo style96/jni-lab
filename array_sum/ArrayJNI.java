@@ -1,4 +1,4 @@
-package com.example.jni;
+package array_sum;
 
 public class ArrayJNI {
     static {
