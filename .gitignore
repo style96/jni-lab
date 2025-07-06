@@ -1,0 +1,34 @@
+# Bytecode classes
+*.class
+
+# Native shared libraries
+*.so
+
+# Header files auto-generated
+*.h
+
+# build outs
+/build/
+/bin/
+/obj/
+/out/
+classes/
+
+# IDEs
+*.log
+*.swp
+*~
+.vscode/
+.idea/
+*.iml
+
+# Java core dumps
+hs_err_pid*
+
+# OS temp files
+.DS_Store
+Thumbs.db
+
+# Shell script run outs
+*.o
+*.out
