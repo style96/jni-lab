@@ -1,0 +1,12 @@
+cc_library_shared {
+    name: "libsystem_prop_jni",
+    srcs: ["system_prop_jni.cpp"],
+    shared_libs: ["liblog"],
+    cflags: ["-Wall", "-Werror"],
+}
+
+cc_binary {
+    name: "system_prop_demo",
+    srcs: ["main.cpp"],
+    shared_libs: ["libsystem_prop_jni"],
+}
