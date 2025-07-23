@@ -1,8 +1,8 @@
 #include <jni.h>
-#include "com_example_jni_ArrayJNI.h"
+#include "arraysum_ArrayJNI.h"
 
 extern "C" JNIEXPORT jint JNICALL
-Java_com_example_jni_ArrayJNI_sumArray(JNIEnv* env, jobject, jintArray values) {
+Java_arraysum_ArrayJNI_sumArray(JNIEnv* env, jobject, jintArray values) {
     jint* array = env->GetIntArrayElements(values, nullptr);
     jsize length = env->GetArrayLength(values);
 

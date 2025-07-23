@@ -2,12 +2,12 @@
 set -e
 
 # === Ayarlar ===
-JAVA_NAME="HelloJNI"
-JAVA_SRC="HelloJNI.java"
-CPP_SRC="hello_jni.cpp"
+JAVA_NAME="ArrayJNI"
+JAVA_SRC="ArrayJNI.java"
+CPP_SRC="array_jni.cpp"
 CLASS_DIR="classes"
-LIB_NAME="native"
-PACKAGE="helloworld"
+LIB_NAME="array_jni"
+PACKAGE="arraysum"
 
 # === JAVA_HOME tanımı (otomatik) ===
 if [ -z "$JAVA_HOME" ]; then
