@@ -26,7 +26,7 @@ chmod +x build.sh
 ./build.sh
 ```
 ## Expected Output
-Example of Hello_World
-JAVA_HOME = /usr/lib/jvm/java-17-openjdk-amd64
-Çalıştırılıyor...
+Example of Hello_World \
+JAVA_HOME = /usr/lib/jvm/java-17-openjdk-amd64 \
+Çalıştırılıyor... \
 Hello from native C++!
