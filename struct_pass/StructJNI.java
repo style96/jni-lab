@@ -1,4 +1,4 @@
-package struct_pass;
+package structpass;
 
 public class StructJNI {
     static {
