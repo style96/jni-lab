@@ -1,0 +1,11 @@
+android_app {
+    name: "JniSampleApp",
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+    stl: "none",
+    platform_apis: true,
+    privileged: true,     // Places the app in the priv-app directory
+    certificate: "platform",
+    resource_dirs: ["res"],
+    jni_libs: ["libJniSampleApp"],
+}

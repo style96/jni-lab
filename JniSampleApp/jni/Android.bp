@@ -1,0 +1,12 @@
+cc_library_shared {
+    name: "libJniSampleApp",
+    srcs: ["system_prop.cpp"],
+    shared_libs: [],
+    static_libs: [],
+    cflags: ["-Wall", "-Werror"],
+    header_libs: ["jni_headers"],
+    stl: "none",
+    apex_available: ["//apex_available:platform"], 
+    sdk_version: "current",
+
+}
