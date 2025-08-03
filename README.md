@@ -7,6 +7,7 @@ This repository contains practical JNI examples, from hello world to system-leve
 - **string_exchange/**: Passing strings from Java to C++
 - **array_sum/**: Passing and summing int arrays
 - **struct_pass/**: Passing a Java object to native code
+- **system_prop_demo/**: Passing android system property from C++ to whereever you want
 
 ## 🛠️ Prerequisites
 
@@ -28,5 +29,5 @@ chmod +x build.sh
 ## Expected Output
 Example of Hello_World \
 JAVA_HOME = /usr/lib/jvm/java-17-openjdk-amd64 \
-Çalıştırılıyor... \
+Executing... \
 Hello from native C++!
